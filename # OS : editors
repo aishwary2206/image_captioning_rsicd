@@ -1,0 +1,25 @@
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Big artifacts (keep images out of git)
+RSICD_images/
+runs/
+outputs/
+logs/
+
+# Models / weights
+*.pt
+*.pth
+*.ckpt
